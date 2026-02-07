@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+
+    background: url(images/batsbg.png); background-repeat: repeat; background-attachment: fixed; background-position: top;
+
+}
+#container {
+    width: 800px;
+    margin: 0 auto;
+    background-image: url(images/blackpaper.png)
+
+}
+.left{
+width: 380px;
+height: 200px;
+background-color: #fff;
+border-radius: 10px;
+float: left;
+margin: 0px 10px 10px 15px;
+padding: 30px 20px 30px 30px;
+border: thick #939092 outset;
+}
+.right{
+width: 380px;
+height: 200px;
+background-color: #fff;
+border-radius: 10px;
+float: left;
+margin: 0px 0px 10px 0px;
+padding: 30px 20px 30px 30px;
+border: thick #939092 outset;
+visibility: hidden;
+}
+footer{
+    background-image: url(images/blackpaper.png)
+}
+header > h1{
+    text-align: center;
+    color: #d8d7d7;
+    padding-top: 10px;
+
+}
